@@ -1,0 +1,96 @@
+/* do not change this. this selects all elements and resets margin and padding to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 30px;
+}
+ol,ul{
+    padding-left: 20px;
+}
+
+body{
+    /* background-color: rgb(220, 220, 234); */
+}
+#header, footer{
+    /* background-color: rgb(51, 92, 141); */
+    /* min-height: 100px; */
+    /* padding: 10px; */
+}
+#header p{
+    /* text-align: center; */
+    /* color: rgb(192, 192, 192); */
+}
+p{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+footer{
+    /* color: white; */
+    /* padding: 20px; */
+}
+section{
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px; */
+}
+/* this changes the font type for headers 1 to 3 */
+h1,h2,h3{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+h1{
+    /* color: rgb(225, 232, 225); */
+    /* text-align: center; */
+    /* margin-top: 10px; */
+}
+h2{
+    /* color: rgb(127, 127, 127); */
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+}
+h3{
+    /* color:white; */
+    /* margin-bottom: 5px; */
+}
+
+.colgroup{
+    /* display: flex; */
+    /* column-gap: 5px; */
+}
+.colgroup div{
+    /* background-color: rgb(95, 95, 95); */
+    /* color: white; */
+    /* width:calc(100% / 3); */
+    /* border-radius: 20px; */
+    /* padding: 10px; */
+}
+img{
+    /* width: 100%!important; */
+    /* border-radius: 10px; */
+}
+#lessons h3{
+    /* color: cadetblue; */
+}
+#lessons div{
+    /* background-color: cadetblue; */
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: grey 3px 3px 1px;    */
+}
+#lessons li{
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* color: aliceblue; */
+}
+#lessons a{
+    /* color: gold; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+}
+#lessons{
+    /* min-height: 200px; */
+}
+.mycustomclass{
+    /*add anything you would like here*/
+    /* color: red; */
+}

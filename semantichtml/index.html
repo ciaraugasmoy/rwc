@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--LEAVETHISALONE-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first assignment</title>
+    <!-- instead of using the style tag you can put all your style info in another document and link it -->
+    <!-- if you are having trouble doing this you can copy the styles from the style.css file and put it in the style tags -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <!--new concept:'span' tag is like div except it is an inline element, it does not disrupt the flow of the document-->
+        <h1>NAME's Website</h1>
+        <p>This website contains all of my favorite things</p>
+    </div>
+    <!--new concept: this tag 'section' can be used to, -->
+    <!--this is similar to using a div tag, however it is semantic and improves accessability-->
+    <!--we will learn more about semantic tags next lesson-->
+    <section>
+        <h2>My favorite Books</h2>
+        <div class="colgroup">
+            <div>
+                <img alt="artemis fowl book cover" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81iX1miralL._AC_UF1000,1000_QL80_.jpg">
+                <h3>Artemis Fowl</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget arcu pretium, pharetra magna ac, ultrices velit. Mauris maximus posuere orci nec scelerisque. Aenean porttitor congue scelerisque. Etiam tincidunt varius dui, ac consequat odio consequat lacinia. Aenean tincidunt lobortis nisi. Integer ut massa erat. Praesent iaculis ultricies dui lacinia eleifend. Nullam commodo nunc pretium, viverra tortor quis, finibus lectus. Proin blandit urna id odio cursus, vitae varius velit volutpat. Sed eu feugiat nisl, non imperdiet ex. Nulla quis iaculis risus, ut sollicitudin enim. Etiam a sapien a nulla congue ultricies vel et dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ut purus elementum, vehicula metus a, ultricies dui. Maecenas pellentesque ex libero, in varius eros mollis id. Donec cursus nisl congue semper commodo.
+                </p>
+            </div>
+            <div>
+                <img alt="percy jackson boo cover" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91RQ5d-eIqL._AC_UF1000,1000_QL80_.jpg">
+                <h3>Percy Jackson</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget arcu pretium, pharetra magna ac, ultrices velit. Mauris maximus posuere orci nec scelerisque. Aenean porttitor congue scelerisque. Etiam tincidunt varius dui, ac consequat odio consequat lacinia. Aenean tincidunt lobortis nisi. Integer ut massa erat. Praesent iaculis ultricies dui lacinia eleifend. Nullam commodo nunc pretium, viverra tortor quis, finibus lectus. Proin blandit urna id odio cursus, vitae varius velit volutpat. Sed eu feugiat nisl, non imperdiet ex. Nulla quis iaculis risus, ut sollicitudin enim. Etiam a sapien a nulla congue ultricies vel et dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ut purus elementum, vehicula metus a, ultricies dui. Maecenas pellentesque ex libero, in varius eros mollis id. Donec cursus nisl congue semper commodo.
+                </p>
+            </div>
+            <div>
+                <img alt="city of ember book cover" src="https://images.penguinrandomhouse.com/cover/9780385371353">
+                <h3>City of Ember</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget arcu pretium, pharetra magna ac, ultrices velit. Mauris maximus posuere orci nec scelerisque. Aenean porttitor congue scelerisque. Etiam tincidunt varius dui, ac consequat odio consequat lacinia. Aenean tincidunt lobortis nisi. Integer ut massa erat. Praesent iaculis ultricies dui lacinia eleifend. Nullam commodo nunc pretium, viverra tortor quis, finibus lectus. Proin blandit urna id odio cursus, vitae varius velit volutpat. Sed eu feugiat nisl, non imperdiet ex. Nulla quis iaculis risus, ut sollicitudin enim. Etiam a sapien a nulla congue ultricies vel et dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ut purus elementum, vehicula metus a, ultricies dui. Maecenas pellentesque ex libero, in varius eros mollis id. Donec cursus nisl congue semper commodo.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="lessons">
+        <h3>Concepts Learnt in this exercise</h3>
+        <div>
+        <ol>
+            <li>Linking an external Stylesheet</li>
+            <li>Semantic Tags eg. Section, Footer</li>
+            <li>Special tags like 'br'</li>
+            <li>Using simple css selectors <a href="https://www.w3schools.com/css/css_selectors.asp">More info</a></li>
+            <li>Using css combinators <a href="https://www.w3schools.com/css/css_combinators.asp">More info</a></li>
+        </ol>
+    </div>
+    </section>
+<!--'footer' is also a semantic tag, the tag 'br' is to create a line break. it does not need any closing tag-->
+    <footer>
+        <p>I completed this activity at <span class="mycustomclass">DATE</span><br> You can learn more about websites at <a href="https://www.w3schools.com/html/default.asp">w3schools</a></p>
+    </footer>
+</body>
+</html>
